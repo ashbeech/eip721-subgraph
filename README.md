@@ -2,13 +2,13 @@
 
 `npm install`
 
-# use
-
-install `subgraph-deploy`
+Install `subgraph-deploy`
 
 `npm i -D subgraph-deploy`
 
 `npm run`
+
+### Optional
 
 in your package.json you can add a script to deploy that subgraph in your running graph-node
 
@@ -27,7 +27,7 @@ in your package.json you can add a script to deploy that subgraph in your runnin
   .requiredOption('-g, --graph <url>', 'graph node url');
 ```
 
-# example graphQL query
+# Example graphQL query
 
 ```
 {
