@@ -13,7 +13,9 @@ Modify
 Deploy
 
 `graph auth --studio c387xxx8fa` <-- insert your studio CLI auth
+
 `graph codegen && graph build` <-- build
+
 `graph deploy --studio xxx` <-- deploy
 
 Check studio to makesure it's syncing…
