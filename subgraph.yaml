@@ -10,7 +10,7 @@ dataSources:
     source:
       abi: EIP721
       address: "xxx"
-      startBlock: xxx # Starting block: e.g. 10742795
+      startBlock: xxx # Starting block: e.g. 10742795/19038707
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4

@@ -1,6 +1,6 @@
 specVersion: 0.0.2
 description: EIP-721
-repository: https://github.com/wighawag/eip721-subgraph
+repository: https://github.com/ashbeech/eip721-subgraph
 schema:
   file: schema.graphql
 dataSources:
@@ -9,8 +9,8 @@ dataSources:
     network: matic
     source:
       abi: EIP721
-      address: "0xE9B6DB0BB21E6DF1FE6F8c5e076740EeBf4D81Eb"
-      startBlock: 10742795
+      address: "0xa5451cb3cf997b3775e913f4722ee411ac09be62"
+      startBlock: 18579036
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
