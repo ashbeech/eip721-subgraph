@@ -10,13 +10,22 @@ Modify
 
 • subgraph.yaml
 
+```yaml
+source:
+  address: "0x…" # Insert contract address e.g. 0xa5451cb3cf997b3775e913f4722ee411ac09be62
+  startBlock: 000 # Insert starting block: e.g. 19164861
+  abi: EIP721
+```
+
 Deploy
 
 `graph auth --studio c387xxx8fa` <-- insert your studio CLI auth
 
+`cd YOUR_SUBGRAPH_DIR` <-- navigate to your local dir
+
 `graph codegen && graph build` <-- build
 
-`graph deploy --studio xxx` <-- deploy
+`graph deploy --studio YOUR_SUBGRAPH_NAME` <-- deploy
 
 Check studio to makesure it's syncing…
 
